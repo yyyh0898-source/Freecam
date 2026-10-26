@@ -1,0 +1,59 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Freecam LeviPack Bedrock Mod",
+    "description": "High-Performance Freecam Camera Engine v1.26.52 with 60 FPS VSync & LeviAssetBundle",
+    "uuid": "7b43a910-4f51-4fa3-9f82-a083d9bc3791",
+    "version": [
+      1,
+      26,
+      52
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "client_data",
+      "uuid": "3f912c01-8b22-4a0f-9014-9988ffbc1120",
+      "version": [
+        1,
+        26,
+        52
+      ],
+      "description": "Freecam Native Android AAR Client Binding"
+    },
+    {
+      "type": "resources",
+      "uuid": "1b089c22-ee04-4412-a167-cc8949827104",
+      "version": [
+        1,
+        26,
+        52
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Hashsi (Modrinth)",
+      "LeviPack Port Engineering Team"
+    ],
+    "license": "Apache-2.0 / MIT",
+    "url": "https://modrinth.com/mod/freecam",
+    "aar_target": "com.levipack.freecam:freecam-engine:1.26.52",
+    "asset_bundle_tag": "LeviAssetBundle",
+    "frame_sync": {
+      "target_fps": 60,
+      "vsync_enforced": true,
+      "interpolation": "inertial"
+    },
+    "memory": {
+      "max_pool_mb": 128,
+      "direct_buffer": true,
+      "threads": 4
+    }
+  }
+}
